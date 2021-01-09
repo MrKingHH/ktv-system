@@ -14,6 +14,7 @@
   import { packageType } from '@/common/js/const'
   import { apiUrl } from '@/serviceAPI.config.js'
   export default {
+    name: 'package-info',
     data() {
       return {
         options: {},

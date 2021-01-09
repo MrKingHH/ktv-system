@@ -27,6 +27,7 @@
     }
   }
   export default {
+    name: 'goods-info',
     data() {
       return {
         tableOptions: {

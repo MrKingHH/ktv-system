@@ -12,6 +12,7 @@
   import { roomPosition } from '@/common/js/const'
   import { apiUrl } from '@/serviceAPI.config.js'
   export default {
+    name: 'room-info',
     data() {
       return {
         tableOptions: {

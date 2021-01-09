@@ -27,7 +27,7 @@
   import { apiUrl } from '@/serviceAPI.config.js'
   import { mapGetters } from 'vuex'
   export default {
-    name: 'ktv',
+    name: 'order-history',
     data() {
       return {
         tableOptions: {

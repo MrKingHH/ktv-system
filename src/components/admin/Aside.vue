@@ -47,6 +47,7 @@
 <script>
   import IconFont from '@/components/IconFont'
   export default {
+    name: 'aside',
     props: {
       userInfo: {
         type: Object,

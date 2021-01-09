@@ -10,6 +10,7 @@
 <script>
   import BaseTable from '@/components/admin/BaseTable'
   export default {
+    name: 'room-type',
     data() {
       return {
         tableOptions: {

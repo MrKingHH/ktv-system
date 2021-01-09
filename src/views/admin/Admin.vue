@@ -14,6 +14,7 @@
   import { apiUrl } from '@/serviceAPI.config.js'
   import { mapGetters, mapMutations } from 'vuex'
   export default {
+    name: 'admin',
     computed: {
       ...mapGetters(['userInfo'])
     },

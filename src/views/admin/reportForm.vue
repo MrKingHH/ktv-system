@@ -23,6 +23,7 @@
   import { dateFormat } from '@/common/js/util'
   import { apiUrl } from '@/serviceAPI.config.js'
   export default {
+    name: 'report-form',
     data() {
       return {
         btnList: [

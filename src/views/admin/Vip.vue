@@ -37,6 +37,7 @@
   import { dateFormat } from '@/common/js/util'
   import { apiUrl } from '@/serviceAPI.config.js'
   export default {
+    name: 'vip',
     data() {
       return {
         tableOptions: {

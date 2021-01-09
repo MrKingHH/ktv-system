@@ -125,6 +125,7 @@
   import { apiUrl } from '@/serviceAPI.config.js'
   import { mapMutations } from 'vuex'
   export default {
+    name: 'base-table',
     props: {
       tableOptions: {
         type: Object,

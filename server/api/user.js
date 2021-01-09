@@ -12,7 +12,7 @@ router.post('/register', async (ctx) => {
     const type = data.userType
     const code = data.code
     const name = data.name
-    if (code != rootCode[type] && code != rootCode[type]) {
+    if (code != rootCode[type]) {
       ctx.body = {code: 500, message: '注册码错误'}
       return
     }

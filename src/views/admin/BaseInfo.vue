@@ -17,6 +17,7 @@
 
 <script>
   export default {
+    name: 'base-info',
     data() {
       return {
         activeName: '1-1',

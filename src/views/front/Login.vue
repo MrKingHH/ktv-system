@@ -51,6 +51,7 @@
   import { apiUrl } from '@/serviceAPI.config.js'
   const crypto = require('crypto')
   export default {
+    name: 'login',
     data() {
       return {
         formArray: [
@@ -61,7 +62,7 @@
           {key: 'code', title: '验证码', type: 'password', placeholder: '输入验证码'}
         ],
         formData: {
-          account: '', password: '', rePassword: '', name: ''
+          account: '', password: '', rePassword: '', name: '', code: ''
         },
         ruleValidate: {
           account: [
